@@ -82,7 +82,7 @@ def get_domain_info(domain):
                 break
         else:
             return None, None
-        if not sub:  # root domain根域名https://github.com/NewFuture/DDNS/issues/9
+        if not sub:  # root domain根域名https://github.com/NewFuture/ddns/issues/9
             sub = '@'
     return did, sub
 
